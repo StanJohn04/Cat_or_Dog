@@ -22,12 +22,12 @@ def process_image(image):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        file = request.files['image_file']
-        if file:
-            image = process_image(file)
-            prediction = model.predict(image)
+        if 'image' in request.files:
+            image = request.files['image']
+            image_proc = process_image(image)
+            prediction = model.predict(image_proc)
             result = 'Dog' if prediction[0][0] >= 0.5 else 'Cat'
-            return render_template('index.html', result=result)
+            return render_template('index.html', predict = result)
     return render_template('index.html')
 
 if __name__ == '__main__':
