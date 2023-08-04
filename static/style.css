@@ -1,47 +1,63 @@
+#home {
+    background: url("catdog.jpg"); 
+    height: 350px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  
+  }
+
 form {
     text-align: center;
   }
 
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #F0F0F0;
-    margin: 0;
-    padding: 0;
-  }
-  /* Main container style */
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  /* Result text style */
-  .result-text {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  /* Result image style */
-  .result-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 300px;
-    border: 5px solid #F0F0F0;
-    border-radius: 10px;
-  }
-  /* Link back to homepage style */
-  .home-link {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 16px;
-  }
+body {
+font-family: Arial, sans-serif;
+background-color: #F0F0F0;
+margin: 0;
+padding: 0;
+}
+/* Main container style */
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #fff;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Result text style */
+.result-text {
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+/* Result image style */
+.result-image {
+display: block;
+margin: 0 auto;
+max-width: 300px;
+border: 5px solid #F0F0F0;
+border-radius: 10px;
+}
+/* Link back to homepage style */
+.home-link {
+display: block;
+text-align: center;
+margin-top: 20px;
+font-size: 16px;
+}
 
-  p {
-    text-align: center;
-   line-height: 100px;
-   
-   }
+p {
+text-align: center;
+line-height: 100px;
+}
+
+#prediction{
+    color: blue;
+    font-size: 80px;
+}
+
+
   
