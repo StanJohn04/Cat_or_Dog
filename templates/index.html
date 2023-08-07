@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col-md-12 jumbotron jumbo-style text-center" id="home"></div>
     </div>
-    <div class="row">
+    <div id="main" class="row">
       <hr>
       <form method="post" enctype="multipart/form-data">
         <label for="file" style="cursor: pointer;">Upload Image</label>
@@ -24,9 +24,10 @@
         <input type="submit" value="submit" id="btnID">
       </form>
       <hr>
+      <p><img id="output" width="200" /></p>
       <p id="prediction">Prediction: {{predict}}</p>
       <p><img src="{{predicted_image}}" id="image_predicted" width="200" style="visibility:visible" /></p>
-      <p><img id="output" width="200" /></p>
+      
       <hr>
     </div>
   </div>
