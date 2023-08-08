@@ -69,6 +69,34 @@ We tested the model with images downloaded from google and images of our own pet
 
 
 ## Deploying our model
+ 
+First we import the necessary tools
+ 
+We load in the pre-trained model that can predict whether an image contains a cat or a dog.
+The model is loaded from the specified path.
+
+ 
+Next we define where uploaded files will be stored.
+UPLOAD_FOLDER: The path where uploaded files will be saved.
+ALLOWED_EXTENSIONS: A set of allowed file extensions.
+ 
+Then we create a Flask app instance that will serve as our web application. Then we configure the app to use the upload folder we defined earlier.
+ 
+Image Processing Function:
+We define a function called process_image to prepare an uploaded image for the model.
+The function resizes the image to 150x150, converts it to grayscale, normalizes pixel values, and reshapes it for the model.
+
+
+ 
+Main Route:
+Then we create a main page ('/') to deal with users' requests.
+Inside the index() function:
+If a user uploads an image (POST request) it takes the uploaded image and saves it in the upload folder.
+Then it adjusts the image for the model, asks the model if it's a cat or dog and shows the result on the result.html page with the image.
+ 
+Run the app
+Summary
+This code sets up a Flask web app where users can upload images. The images are processed, and a pre-trained model predicts whether they're cats or dogs. The result, along with the uploaded image, is then displayed on the result page.
 
 
 # Team Members
