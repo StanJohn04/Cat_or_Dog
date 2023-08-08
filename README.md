@@ -109,10 +109,13 @@ Then we create a main page ('/') to deal with users' requests.
 Inside the index() function:
 If a user uploads an image (POST request) it takes the uploaded image and saves it in the upload folder.
 Then it adjusts the image for the model, asks the model if it's a cat or dog and shows the result on the result.html page with the image.
- ![Uploading image.png…]()
+
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/d231ffa7-0a34-42b2-87a1-7af203579282)
+
 
 Run the app
-Summary
+
+# Summary
 This code sets up a Flask web app where users can upload images. The images are processed, and a pre-trained model predicts whether they're cats or dogs. The result, along with the uploaded image, is then displayed on the result page.
 
 
