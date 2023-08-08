@@ -1,4 +1,4 @@
-![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/264c880d-a68d-4454-acf9-5216ab030a26)
+
 # Cat_or_Dog
 
 ## Project Proposal
@@ -71,9 +71,13 @@ We tested the model with images downloaded from google and images of our own pet
 
 ## Deploying our model
  ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/176e6e9f-e51d-4068-89ac-9d68d04e0fed)
+
+ 
 First we import the necessary tools
  
 ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/3d751f32-8789-4c29-bdd6-6a204babf2a7)
+
+
 We load in the pre-trained model that can predict whether an image contains a cat or a dog.
 The model is loaded from the specified path.
 
@@ -83,9 +87,13 @@ The model is loaded from the specified path.
 Next we define where uploaded files will be stored.
 UPLOAD_FOLDER: The path where uploaded files will be saved.
 ALLOWED_EXTENSIONS: A set of allowed file extensions.
+
+
  ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/66037ad7-f38b-4dab-b02b-b262e3b045f5)
 
 Then we create a Flask app instance that will serve as our web application. Then we configure the app to use the upload folder we defined earlier.
+
+
  ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/7816be08-0159-4b34-bae8-a38540c77bbd)
 
 Image Processing Function:
