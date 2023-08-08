@@ -118,6 +118,11 @@ Run the app
 ## Summary
 This code sets up a Flask web app where users can upload images. The images are processed, and a pre-trained model predicts whether they're cats or dogs. The result, along with the uploaded image, is then displayed on the result page.
 
+## Next Steps:
+
+To increase the accuracy of the model, we would want to clean up the images in the data set, i.e. get rid of the images that are not of cats or dogs.
+
+Have the API running in the background.
 
 # Team Members
   * [Stan Johnson](https://github.com/StanJohn04)
