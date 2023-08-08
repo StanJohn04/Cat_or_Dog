@@ -35,7 +35,7 @@ After some expirementing with different hyper parameters, activation functions, 
 ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/121142680/cd9ef7ad-20f7-4c4f-be83-45cf94d162fd)
 ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/121142680/aa18a98e-d85f-49c8-859e-9e378322c49a)
 
-After noticing and increase in accuracy from manipulating the different parameters of the model, we decided to let keras-tuner run through the different hyper parameters to fine tune the model...
+After noticing an increase in accuracy from manipulating the different parameters of the model, we decided to let keras-tuner run through the different hyper parameters to fine tune the model...
 
 First we set up data augmentation parameters to make our dataset more generalized:
 ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/121142680/b114b8c5-ae2e-4cd4-bd52-c0963c97a9de)
