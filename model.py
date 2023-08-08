@@ -41,7 +41,7 @@ def index():
             image_proc = process_image(image)
             prediction = model.predict(image_proc)
             result = 'Dog' if prediction[0][0] >= 0.5 else 'Cat'
-            return render_template('index.html', predict = result, predicted_image = img_file_path)
+            return render_template('result.html', predict = result, predicted_image = img_file_path)
     return render_template('index.html')
 
 if __name__ == '__main__':
