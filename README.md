@@ -69,14 +69,14 @@ We tested the model with images downloaded from google and images of our own pet
 
 
 ## Deploying our model
- 
-First we import the necessary tools
  ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/176e6e9f-e51d-4068-89ac-9d68d04e0fed)
-
+First we import the necessary tools
+ 
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/3d751f32-8789-4c29-bdd6-6a204babf2a7)
 We load in the pre-trained model that can predict whether an image contains a cat or a dog.
 The model is loaded from the specified path.
 
- ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/3d751f32-8789-4c29-bdd6-6a204babf2a7)
+
 
 Next we define where uploaded files will be stored.
 UPLOAD_FOLDER: The path where uploaded files will be saved.
