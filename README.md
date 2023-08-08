@@ -52,6 +52,11 @@ With accuracy on the test data of 90.87%!
 
 
 ## Testing our model
+To test our model we wrote a function that preprocesses an uploaded image and then runs it through the model to predict whether its an image of a cat or a dog. The notebook for this can be found [here](https://github.com/StanJohn04/Cat_or_Dog/blob/main/CNN_Model/Model_Test.ipynb)
+
+We tested the model with images downloaded from google and images of our own pets. All of the test images were NOT part of the training or test data used in the previous section.
+
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/121142680/e011f2db-2afe-45ea-aadb-3aad6fa85efa)
 
 
 ## Deploying our model
