@@ -88,10 +88,12 @@ Next we define where uploaded files will be stored.
 UPLOAD_FOLDER: The path where uploaded files will be saved.
 ALLOWED_EXTENSIONS: A set of allowed file extensions.
 
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/99f95bc7-a4be-40f8-9492-2510658d1a75)
 
 
 Then we create a Flask app instance that will serve as our web application. Then we configure the app to use the upload folder we defined earlier.
 
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/3ada4d08-981e-4d7c-a19d-243f0f40a29d)
 
 
 
@@ -99,6 +101,7 @@ Image Processing Function:
 We define a function called process_image to prepare an uploaded image for the model.
 The function resizes the image to 150x150, converts it to grayscale, normalizes pixel values, and reshapes it for the model.
 
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/5a73ca07-bcc2-41c2-b2c1-35d7d57f146e)
 
  
 Main Route:
