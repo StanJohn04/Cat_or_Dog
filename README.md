@@ -52,6 +52,15 @@ With accuracy on the test data of 90.87%!
 
 
 ## Testing our model
+### Toolkit:
+Follow the links below to learn more about the tools used for this project
+ * [keras-load_model](https://keras.io/api/)
+ * [TensorFlow - image](https://www.tensorflow.org/api_docs/python/tf/image)
+ * [numpy](https://numpy.org/doc/)
+ * [matplotlib](https://matplotlib.org/stable/index.html)
+ * [urlib_request](https://docs.python.org/3/library/urllib.request.html)
+ * [io.BytesIO](https://docs.python.org/3/library/io.html)
+### Testing the model in jupyter notebook:
 To test our model we wrote a function that preprocesses an uploaded image and then runs it through the model to predict whether its an image of a cat or a dog. The notebook for this can be found [here](https://github.com/StanJohn04/Cat_or_Dog/blob/main/CNN_Model/Model_Test.ipynb)
 
 We tested the model with images downloaded from google and images of our own pets. All of the test images were NOT part of the training or test data used in the previous section.
