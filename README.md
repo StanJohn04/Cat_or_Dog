@@ -1,3 +1,4 @@
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/264c880d-a68d-4454-acf9-5216ab030a26)
 # Cat_or_Dog
 
 ## Project Proposal
@@ -76,18 +77,22 @@ First we import the necessary tools
 We load in the pre-trained model that can predict whether an image contains a cat or a dog.
 The model is loaded from the specified path.
 
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/3559d160-cec3-4285-9eb9-ab9f6f0c7db5)
 
 
 Next we define where uploaded files will be stored.
 UPLOAD_FOLDER: The path where uploaded files will be saved.
 ALLOWED_EXTENSIONS: A set of allowed file extensions.
- 
+ ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/66037ad7-f38b-4dab-b02b-b262e3b045f5)
+
 Then we create a Flask app instance that will serve as our web application. Then we configure the app to use the upload folder we defined earlier.
- 
+ ![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/7816be08-0159-4b34-bae8-a38540c77bbd)
+
 Image Processing Function:
 We define a function called process_image to prepare an uploaded image for the model.
 The function resizes the image to 150x150, converts it to grayscale, normalizes pixel values, and reshapes it for the model.
 
+![image](https://github.com/StanJohn04/Cat_or_Dog/assets/122308689/68af20a6-e36d-4a5c-b599-fb9e0d581c51)
 
  
 Main Route:
@@ -95,7 +100,8 @@ Then we create a main page ('/') to deal with users' requests.
 Inside the index() function:
 If a user uploads an image (POST request) it takes the uploaded image and saves it in the upload folder.
 Then it adjusts the image for the model, asks the model if it's a cat or dog and shows the result on the result.html page with the image.
- 
+ ![Uploading image.png…]()
+
 Run the app
 Summary
 This code sets up a Flask web app where users can upload images. The images are processed, and a pre-trained model predicts whether they're cats or dogs. The result, along with the uploaded image, is then displayed on the result page.
